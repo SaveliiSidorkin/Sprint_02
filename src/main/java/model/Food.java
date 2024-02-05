@@ -8,7 +8,7 @@ public abstract class Food implements Discountable {
     public Food(int amount, double price, boolean isVegetarian) {
         this.amount = amount;
         this.price = price;
-        this.isVegetarian = isVegetarian;//11юдждло
+        this.isVegetarian = isVegetarian;//11юдждлооррр
     }
 
     @Override
