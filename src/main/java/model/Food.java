@@ -1,5 +1,5 @@
 package model;
-//тест 2 тест 3 тест 4
+
 public abstract class Food implements Discountable {
     protected int amount;
     protected double price;
@@ -24,7 +24,7 @@ public abstract class Food implements Discountable {
         return getTotalPrice() - getTotalPrice() * getDiscount();
     } //метод расчета стоимости со скидкой
 
-    public abstract boolean isVegetarian();//метод, возвращающий веганский флаг
+    public abstract boolean isVegetarian(); //метод, возвращающий веганский флаг
 
 
 }
