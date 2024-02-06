@@ -24,7 +24,7 @@ public abstract class Food implements Discountable {
         return getTotalPrice() - getTotalPrice() * getDiscount();
     } //метод расчета стоимости со скидкой
 
-    public abstract boolean isVegetarian();//метод, возвращающий веганский флаг
+    public abstract boolean isVegetarian(); //метод, возвращающий веганский флаг
 
 
 }
