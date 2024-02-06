@@ -1,5 +1,5 @@
 package model;
-//тест 2 тест 3 тест 4
+
 public abstract class Food implements Discountable {
     protected int amount;
     protected double price;
